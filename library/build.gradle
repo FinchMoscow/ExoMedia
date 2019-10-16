@@ -54,3 +54,6 @@ android {
 }
 
 apply from: 'gradle/publish.gradle'
+
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.gihub.FinchMoscow'
